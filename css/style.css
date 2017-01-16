@@ -20,9 +20,22 @@ img{
   width: 100px;
   height: 100px;
   background-color: orange;
-  transform: scale(3,2) rotate(20deg) translate(100px,100px);
-
+  transform: rotateX(45deg);
+  /* scale(3,2) rotate(20deg) translate(100px,100px);*/
   /*rotate(45deg);*/
   /*gira en sentido horario*/
   /*translate(500px, 200px);*/
+}
+.transicion{
+  width: 100px;
+  height: 100px;
+  background: pink;
+  transition: background 2s, height 3s, transform 3s;
+  /*transition-delay: 2s;*/
+}
+.transicion:hover{
+/*cuando se ponen dos puntos es una acción, hover quiere decir que es cuando el mouse está arriba*/
+background-color: purple;
+height: 200px;
+transform: rotate(20deg);
 }
