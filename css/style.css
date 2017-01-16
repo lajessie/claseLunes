@@ -20,7 +20,9 @@ img{
   width: 100px;
   height: 100px;
   background-color: orange;
-  transform: rotate(45deg);
+  transform: scale(3,2) rotate(20deg) translate(100px,100px);
+
+  /*rotate(45deg);*/
   /*gira en sentido horario*/
   /*translate(500px, 200px);*/
 }
