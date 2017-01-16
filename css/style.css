@@ -52,7 +52,7 @@ transform: rotate(20deg);
   /*from {background-color: blue;}
   to {background-color:pink;}*/
   0% {background-color: blue;}
-  25% {background-color: purple;}
+  25% {background-color: purple; height: 200px;}
   50% {background-color: pink;}
   80% {background-color: red;}
 }
