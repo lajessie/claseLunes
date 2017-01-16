@@ -13,5 +13,5 @@ img{
 .gradiente{
   width: 700px;
   height: 700px;
-  background: linear-gradient(to right, yellow,red);
+  background: linear-gradient(to bottom left, yellow,orange,red, black);
 }
