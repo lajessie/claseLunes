@@ -4,14 +4,21 @@ img{
 }
 .imagen{
   height: 400px;;
-  width: 100%;
+  width: 50%;
   background-image: url("../imagenes/gato.jpg");
   background-repeat: no-repeat;
   /*100% ancho y 100 de altura*/
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .gradiente{
   width: 700px;
   height: 700px;
-  background: linear-gradient(to bottom left, yellow,orange,red, black);
+  background: linear-gradient(to bottom left, rgba(255,0,0,.1),rgba(255,0,0,1));
+}
+.transformacion{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transform: translate(500px, 200px);
 }
