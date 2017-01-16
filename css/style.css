@@ -20,5 +20,7 @@ img{
   width: 100px;
   height: 100px;
   background-color: orange;
-  transform: translate(500px, 200px);
+  transform: rotate(45deg);
+  /*gira en sentido horario*/
+  /*translate(500px, 200px);*/
 }
