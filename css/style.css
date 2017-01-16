@@ -45,11 +45,14 @@ transform: rotate(20deg);
   height: 100px;
   background: blue;
   animation-name: animacion;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
 }
 @keyframes animacion {
-  from {background-color: blue;}
-  to {background-color:pink;}
-
+  /*from {background-color: blue;}
+  to {background-color:pink;}*/
+  0% {background-color: blue;}
+  25% {background-color: purple;}
+  50% {background-color: pink;}
+  80% {background-color: red;}
 }
