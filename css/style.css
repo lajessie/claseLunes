@@ -1,0 +1,11 @@
+img{
+  max-width: 100%;
+  height: auto;
+}
+.imagen{
+  height: 400px;;
+  width: 100%;
+  background-image: url("../imagenes/gato.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
