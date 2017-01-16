@@ -7,5 +7,11 @@ img{
   width: 100%;
   background-image: url("../imagenes/gato.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /*100% ancho y 100 de altura*/
+}
+
+.gradiente{
+  width: 700px;
+  height: 700px;
+  background: linear-gradient(yellow,red);
 }
