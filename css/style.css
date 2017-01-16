@@ -56,3 +56,20 @@ transform: rotate(20deg);
   50% {background-color: pink;}
   80% {background-color: red;}
 }
+
+.memorama{
+  width: 100px;
+  height: 100px;
+  background: blue;
+  margin: 10px;
+  color: blue;
+  display: inline-block;
+
+
+}
+
+.memorama:hover{
+/*cuando se ponen dos puntos es una acción, hover quiere decir que es cuando el mouse está arriba*/
+background-color: pink;
+
+}
