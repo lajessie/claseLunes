@@ -39,3 +39,17 @@ background-color: purple;
 height: 200px;
 transform: rotate(20deg);
 }
+
+.animacion{
+  width: 100px;
+  height: 100px;
+  background: blue;
+  animation-name: animacion;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes animacion {
+  from {background-color: blue;}
+  to {background-color:pink;}
+
+}
